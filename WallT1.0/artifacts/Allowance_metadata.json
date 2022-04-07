@@ -25,8 +25,35 @@
 				"type": "event"
 			},
 			{
-				"stateMutability": "payable",
-				"type": "fallback"
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_member",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "changer",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_oldAmount",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_newAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "allowanceChanged",
+				"type": "event"
 			},
 			{
 				"inputs": [
@@ -37,19 +64,6 @@
 					}
 				],
 				"name": "allowance",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getWalletBalance",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -110,24 +124,6 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address payable",
-						"name": "_to",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_amount",
-						"type": "uint256"
-					}
-				],
-				"name": "withdrawFunds",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -153,7 +149,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"SharedWallet1.0/MainContract.sol": "Wallt1"
+			"WallT1.0/Allowance.sol": "Allowance"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -167,11 +163,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"SharedWallet1.0/MainContract.sol": {
-			"keccak256": "0xde5d44c9946e63a78641f60c347e075f174254b49e79b34842ca4771d97e1f83",
+		"WallT1.0/Allowance.sol": {
+			"keccak256": "0x07deb5e83e91a793eff219d37236fc0072bfaed5bcbb20d517687459c5f6af65",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://f8033884097dc8dca0e83d7c2663fb2c2b0304cd2cedd073aeae3265c7791422",
-				"dweb:/ipfs/QmRoP98HcSePdqMa9V6kDSSCzLJZhC5XYmzuVkykox7Gzj"
+				"bzz-raw://4349a251fd76264951094885f685ac82306a9d2d0319ff89befe6232ee3345af",
+				"dweb:/ipfs/QmWfyaCFNigFRA73AsVeNsRXFgcaWzSkvK3dAmh3xYyT3Q"
 			]
 		},
 		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol": {
