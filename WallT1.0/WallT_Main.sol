@@ -25,7 +25,10 @@ contract Wallt1 is Allowance{
         }
         emit fundsWithdrawn(_to, _amount);
         _to.transfer(_amount);
+    }
 
+    function renounceOwnership () public override{
+        revert ("Can't renounce ownership.");
     }
 
 }

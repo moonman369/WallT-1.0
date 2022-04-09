@@ -2,8 +2,11 @@
 pragma solidity >0.8.0;
 
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol";
+import "https://github.com/moonman369/openzeppelin-contracts/blob/master/contracts/utils/math/SafeMath.sol";
 
 contract Allowance is Ownable{
+
+    using SafeMath for uint;
 
     event allowanceChanged(address indexed _member, address indexed changer, uint _oldAmount, uint _newAmount);
 
@@ -20,7 +23,7 @@ contract Allowance is Ownable{
     }
 
     function reduceAllowance (address _member, uint _amount) internal {
-        emit allowanceChanged(_member, msg.sender, allowance[_member], allowance[_member]-_amount);
-        allowance[_member] -= _amount;
+        emit allowanceChanged(_member, msg.sender, allowance[_member], allowance[_member].sub(_amount));
+        allowance[_member] = allowance[_member].sub(_amount);
     }
 }

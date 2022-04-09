@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.13+commit.abaa5c0e"
+		"version": "0.8.7+commit.e28d00a7"
 	},
 	"language": "Solidity",
 	"output": {
@@ -237,19 +237,19 @@
 	},
 	"sources": {
 		"WallT1.0/Allowance.sol": {
-			"keccak256": "0x07deb5e83e91a793eff219d37236fc0072bfaed5bcbb20d517687459c5f6af65",
+			"keccak256": "0x9bab82265f049f0cadfe82ab019703691632649faf1522c7a8534d519551f35a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4349a251fd76264951094885f685ac82306a9d2d0319ff89befe6232ee3345af",
-				"dweb:/ipfs/QmWfyaCFNigFRA73AsVeNsRXFgcaWzSkvK3dAmh3xYyT3Q"
+				"bzz-raw://51a4935bb7241e561bfdbb7e4a62a652681a7c7c1098c24d82723ceccc282096",
+				"dweb:/ipfs/Qmf1TZ4SzhTRAxRrdbWutGvEPNVFT7JT4Us7pVWYwpmZrS"
 			]
 		},
 		"WallT1.0/WallT_Main.sol": {
-			"keccak256": "0x94376db4b1647922335e66b04f58f712fe1c3b350efd217cac0c0f20117b6c5e",
+			"keccak256": "0x0648772d5a88dd6a37246393e07443c8ddecf98f518c7c9a3e833fce9b9e67e3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://61a0cf3638d678c69cb9c49f3e85df34abaaaa3e302afb3ab9600cac7aa3f946",
-				"dweb:/ipfs/QmXoooaEGKr2qUwDiGXjm3XP45qvsDKBACXfLvaup6t5rr"
+				"bzz-raw://44002a44b7ef881439ca7fbe124078fd532bc3e723cfbe2b19f8c7be7d7e856e",
+				"dweb:/ipfs/QmPcAgEGRJ3Mbd54nikLXXaryUftkpp4SbPZ8JizgrFtyV"
 			]
 		},
 		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol": {
@@ -266,6 +266,14 @@
 			"urls": [
 				"bzz-raw://6df0ddf21ce9f58271bdfaa85cde98b200ef242a05a3f85c2bc10a8294800a92",
 				"dweb:/ipfs/QmRK2Y5Yc6BK7tGKkgsgn3aJEQGi5aakeSPZvS65PV8Xp3"
+			]
+		},
+		"https://github.com/moonman369/openzeppelin-contracts/blob/master/contracts/utils/math/SafeMath.sol": {
+			"keccak256": "0x80a62a632fb210251e8a7632c66d8624fd1c2e60b75b3e08c8b04803abec336f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0163070ead773cf28c76b7d88abb8ecf1c0a2cebda62cc44ca91f60faae361d6",
+				"dweb:/ipfs/QmfVwE4pVia7L7LMbSkQRUWzmX6f4XpdagrrXh7or2qhyd"
 			]
 		}
 	},
