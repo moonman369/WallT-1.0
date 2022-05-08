@@ -59,9 +59,28 @@
 			{
 				"inputs": [
 					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "tokens",
+				"outputs": [
+					{
 						"internalType": "contract IERC20",
-						"name": "_token",
+						"name": "",
 						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_tokenIndex",
+						"type": "uint256"
 					},
 					{
 						"internalType": "address",
@@ -108,19 +127,11 @@
 	},
 	"sources": {
 		"contracts/WallT_Token_Handler.sol": {
-			"keccak256": "0x75f950ca22bb3abb665bb727c19bc6f03594c95b15f0a18d7a7914f16fa29c79",
+			"keccak256": "0xe00a6a8ed127dab42e468c8abf6dad8facaf7968567243ffc369cd45e9826aae",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b0b2bce2abe4a86114b0b02e3199342fd74a0cc0d66331fa5fe597a28040ad01",
-				"dweb:/ipfs/Qmc9qX72ZfqSVDAo2Fcpspfi28gWkgubYpwzhxoSYvtikL"
-			]
-		},
-		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol": {
-			"keccak256": "0xc5c89c86600a8b41ce60df163da74daa9f9269f2304990fd1bf01db32ca6c468",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://bf23edf8e3f74e865249e70112280026a41520bae7ddcbbbae9b92dca625e984",
-				"dweb:/ipfs/QmchNJQdGdz2qRRKWUJAWe1wH7M67sB6Fm9sdstQXvoJL2"
+				"bzz-raw://c5df7389b9aa032356c976dcdd924bc8114ec9cfe541dffc18dc8ab1c08a8c40",
+				"dweb:/ipfs/QmYu2gsgavrqaCv35yRnZJXeStWtU7pVvUGMe8hy8pFxSk"
 			]
 		},
 		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol": {
@@ -129,14 +140,6 @@
 			"urls": [
 				"bzz-raw://5a7d5b1ef5d8d5889ad2ed89d8619c09383b80b72ab226e0fe7bde1636481e34",
 				"dweb:/ipfs/QmebXWgtEfumQGBdVeM6c71McLixYXQP5Bk6kKXuoY4Bmr"
-			]
-		},
-		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
-			"keccak256": "0x8de418a5503946cabe331f35fe242d3201a73f67f77aaeb7110acb1f30423aca",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://5a376d3dda2cb70536c0a45c208b29b34ac560c4cb4f513a42079f96ba47d2dd",
-				"dweb:/ipfs/QmZQg6gn1sUpM8wHzwNvSnihumUCAhxD119MpXeKp8B9s8"
 			]
 		},
 		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/Context.sol": {
