@@ -22,8 +22,8 @@ contract WallT_Handle_Tokens is Context{
 
     function transferTokens (uint256 _tokenIndex, address _to, uint256 _amount) external {
         
-        tokens[_tokenIndex].transferFrom(_msgSender(), _to, _amount);
-        //assert (check);
+        bool check = tokens[_tokenIndex].transferFrom(_msgSender(), _to, _amount);
+        assert (check);
     }
 
 }

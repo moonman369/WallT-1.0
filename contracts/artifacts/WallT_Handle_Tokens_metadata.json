@@ -127,11 +127,11 @@
 	},
 	"sources": {
 		"contracts/WallT_Token_Handler.sol": {
-			"keccak256": "0xe00a6a8ed127dab42e468c8abf6dad8facaf7968567243ffc369cd45e9826aae",
+			"keccak256": "0xca7475ba1b25722d104e39ff4e38b6413d5d91d59fa1af21e54f8253bab2218f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c5df7389b9aa032356c976dcdd924bc8114ec9cfe541dffc18dc8ab1c08a8c40",
-				"dweb:/ipfs/QmYu2gsgavrqaCv35yRnZJXeStWtU7pVvUGMe8hy8pFxSk"
+				"bzz-raw://983b8a7ee8cbe491eb046b1eb865df6fe682ac0ec5216a36bcd9845ce45f6083",
+				"dweb:/ipfs/QmSdXw2c4CgXzfycTETmu8SQbKdr68LmLYs3rm9iMSgQYw"
 			]
 		},
 		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol": {
