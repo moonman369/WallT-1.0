@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.8.13+commit.abaa5c0e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -149,7 +149,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"WallT1.0/Allowance.sol": "Allowance"
+			"contracts/Allowance.sol": "Allowance"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -163,7 +163,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"WallT1.0/Allowance.sol": {
+		"contracts/Allowance.sol": {
 			"keccak256": "0x6da81c5d06d297bbabcd62f75a656afcdce05ffb24b45b75308f6821495204ae",
 			"license": "MIT",
 			"urls": [

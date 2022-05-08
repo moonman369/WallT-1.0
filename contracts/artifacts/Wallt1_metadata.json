@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.8.13+commit.abaa5c0e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -222,7 +222,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"WallT1.0/WallT_Main.sol": "Wallt1"
+			"contracts/WallT_Main.sol": "Wallt1"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -236,7 +236,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"WallT1.0/Allowance.sol": {
+		"contracts/Allowance.sol": {
 			"keccak256": "0x6da81c5d06d297bbabcd62f75a656afcdce05ffb24b45b75308f6821495204ae",
 			"license": "MIT",
 			"urls": [
@@ -244,7 +244,7 @@
 				"dweb:/ipfs/QmSgGFAwrShr1gzmPXPpwgURxxW9T87e76UgLmpvsqZ4gh"
 			]
 		},
-		"WallT1.0/WallT_Main.sol": {
+		"contracts/WallT_Main.sol": {
 			"keccak256": "0x7288c8b2b98cdfa75d9d1b1aadb653091cec4409c4f2ce99afa0c718e6819595",
 			"license": "MIT",
 			"urls": [

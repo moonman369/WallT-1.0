@@ -21,8 +21,10 @@ contract WallT_Handle_Tokens is Context{
         return tokenBalance[_token];
     }
 
-    function depositTokens (IERC20 _token, uint256 _amount) external {
-        
+    function transferTokens (IERC20 _token, address _to, uint256 _amount) external {
+
+        bool check = _token.transfer(_to, _amount);
+        assert (check);
     }
 
 }
