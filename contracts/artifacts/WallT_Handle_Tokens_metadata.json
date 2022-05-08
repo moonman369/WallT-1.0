@@ -22,6 +22,43 @@
 				"inputs": [
 					{
 						"internalType": "contract IERC20",
+						"name": "_token",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "depositTokens",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "contract IERC20",
+						"name": "_token",
+						"type": "address"
+					}
+				],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "contract IERC20",
 						"name": "",
 						"type": "address"
 					}
@@ -51,7 +88,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"WallT1.0/WallT_Token_Handler.sol": "WallT_Handle_Tokens"
+			"contracts/WallT_Token_Handler.sol": "WallT_Handle_Tokens"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -65,12 +102,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"WallT1.0/WallT_Token_Handler.sol": {
-			"keccak256": "0x7e8a79e80d199c849816ebd6e8990fd4698437ba7cb8de6bfded628106fb96b9",
+		"contracts/WallT_Token_Handler.sol": {
+			"keccak256": "0xb7bb6558a4e692fc0f21ef5bfa5813074a71d171b832d8f37313827e98b59e10",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7e4f6eaee37f16ccaabfee827f73d0a92b19323e43d2008c8c592165241d8bf9",
-				"dweb:/ipfs/QmTAswnwci7TRkf3nGcj8LebhWoyaEfu8A8QNKENUPpyqx"
+				"bzz-raw://491f08a7edac7d81b7d5699c8d831105cab3deaa8297eb8b386a6f56aef0f9f5",
+				"dweb:/ipfs/QmYoNDbi9VYcgpMzmPLgk9VUQcoy86mTPgv48XW4G6U2mp"
 			]
 		},
 		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol": {

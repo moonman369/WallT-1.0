@@ -16,4 +16,13 @@ contract WallT_Handle_Tokens is Context{
         tokens.push(token);
         tokenBalance[token] = token.balanceOf(_msgSender());
     }
+
+    function getBalance (IERC20 _token) external view returns (uint256) {
+        return tokenBalance[_token];
+    }
+
+    function depositTokens (IERC20 _token, uint256 _amount) external {
+        
+    }
+
 }
