@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.13+commit.abaa5c0e"
+		"version": "0.8.7+commit.e28d00a7"
 	},
 	"language": "Solidity",
 	"output": {
@@ -127,11 +127,11 @@
 	},
 	"sources": {
 		"contracts/WallT_Token_Handler.sol": {
-			"keccak256": "0xca7475ba1b25722d104e39ff4e38b6413d5d91d59fa1af21e54f8253bab2218f",
+			"keccak256": "0x0847056ab16badddf7d8e8af7a6c3bada9219962f351ee030bde786415cac946",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://983b8a7ee8cbe491eb046b1eb865df6fe682ac0ec5216a36bcd9845ce45f6083",
-				"dweb:/ipfs/QmSdXw2c4CgXzfycTETmu8SQbKdr68LmLYs3rm9iMSgQYw"
+				"bzz-raw://668cef6c5c061ae397d4d27d1de0cba234d6742bca48b8ed1a11f1a7b685fc2b",
+				"dweb:/ipfs/QmV17LJVasQ7Cm6t3FGm3dPetJz8GVWTn6NgD6PBi4M6Aa"
 			]
 		},
 		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol": {
